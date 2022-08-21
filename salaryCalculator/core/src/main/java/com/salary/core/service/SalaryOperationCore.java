@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SalaryOperationCore implements SalaryOperation {
+    //calculating employee's salary based on count of sold cars
     @Override
     public SalaryResponse getSalary(SalaryRequest salaryRequest) {
         Double percentage = 0.02;
